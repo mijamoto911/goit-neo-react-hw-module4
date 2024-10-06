@@ -1,0 +1,8 @@
+.loadMoreBtn {
+  padding: 10px;
+  text-align: center;
+}
+
+.loadMoreBtn.loadMoreBtn.is-hidden {
+  display: none;
+}

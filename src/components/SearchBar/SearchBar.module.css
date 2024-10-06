@@ -1,0 +1,30 @@
+.searchBar {
+  padding: 10px;
+  text-align: center;
+  background-color: blue;
+}
+
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.searchFormInput {
+  width: 300px;
+  padding: 10px 10px 10px 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  pointer-events: none;
+}
